@@ -45,8 +45,7 @@ CONSTRAINT PK_customer_site PRIMARY KEY (CUSTOMER_STORE_SK)
 CREATE TABLE customer_contact(
     CUSTOMER_CONTACT_SK     INTEGER         NOT NULL,
     CUSTOMER_STORE_SK       INT             NOT NULL,
-    FIRST_NAME              VARCHAR(100),
-    LAST_NAME               VARCHAR(100),
+    NAME              VARCHAR(100),
     JOB_POSITION_EN	    VARCHAR(100),
     EXTENSION 		    INT
     FAX 		    INT
