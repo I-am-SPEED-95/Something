@@ -1,21 +1,13 @@
 import sqlite3
 import pandas as pd
-from loguru import logger
 from time import strptime
 from datetime import datetime
 
-RIM_SCRIPT_PATH = "DWH_RIM.txt"
-SDM_PATH = "../SDM/GO_SDM.db"
-DWH_PATH = "GO_DWH.db"
+from Logging import logger, sqliteLogger
 
-def is_sqlite(log_record):
-    return log_record["extra"].get("sqlite") is True
-
-logger.remove()
-logger.add("DWH.log", level="DEBUG", filter=lambda r: not is_sqlite(r))
-logger.add("DWH_SQlite.log", level="INFO", filter=is_sqlite, rotation="10 MB")
-
-sqliteLogger = logger.bind(sqlite= True)
+RIM_SCRIPT_PATH = "../DWH_RIM.txt"
+SDM_PATH = "../../SDM/GO_SDM.db"
+DWH_PATH = "data/GO_DWH.db"
 
 conn_SDM = sqlite3.connect(SDM_PATH)
 conn_DWH = sqlite3.connect(DWH_PATH)
