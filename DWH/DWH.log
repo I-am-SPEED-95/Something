@@ -1,0 +1,20 @@
+2026-05-07 15:55:35.351 | INFO     | __main__:create_dwh_db:12 - DWH database aangemaakt op basis van RIM script
+2026-05-07 15:57:19.702 | INFO     | __main__:<module>:86 - tabel customer_site geüpdated, 746 rijen toegevoegd, 0 rijen voorzien van einddatum
+2026-05-07 15:57:19.755 | INFO     | __main__:<module>:48 - tabel customer_contact geüpdated, 391 rijen toegevoegd, 0 rijen voorzien van einddatum
+2026-05-07 15:57:19.804 | INFO     | __main__:<module>:34 - tabel order_method geüpdated, 7 rijen toegevoegd, 0 rijen verwijderd
+2026-05-07 15:57:19.882 | INFO     | __main__:<module>:34 - tabel return_reason geüpdated, 5 rijen toegevoegd, 0 rijen verwijderd
+2026-05-07 15:57:19.902 | INFO     | __main__:<module>:35 - tabel course geüpdated, 9 rijen toegevoegd, 0 rijen verwijderd
+2026-05-07 15:57:19.947 | INFO     | __main__:<module>:34 - tabel satisfaction_type geüpdated, 5 rijen toegevoegd, 0 rijen verwijderd
+2026-05-07 15:57:20.062 | INFO     | __main__:<module>:63 - tabel sales_branch geüpdated, 28 rijen toegevoegd, 0 rijen voorzien van einddatum
+2026-05-07 15:57:20.140 | INFO     | __main__:<module>:60 - tabel sales_representative geüpdated, 102 rijen toegevoegd, 0 rijen voorzien van einddatum
+2026-05-07 15:57:20.208 | INFO     | __main__:<module>:40 - tabel product geüpdated, 115 rijen toegevoegd, 0 rijen verwijderd
+2026-05-07 15:57:20.320 | INFO     | __main__:<module>:68 - tabel year geüpdated, 7 rijen toegevoegd, 0 rijen verwijderd
+2026-05-07 15:57:20.328 | INFO     | __main__:<module>:97 - tabel month_year geüpdated, 38 rijen toegevoegd, 0 rijen verwijderd
+2026-05-07 15:57:20.368 | INFO     | __main__:<module>:126 - tabel date geüpdated, 998 rijen toegevoegd, 0 rijen verwijderd
+2026-05-07 15:57:23.637 | INFO     | __main__:<module>:84 - tabel order_detail geüpdated, 40990 rijen toegevoegd, 0 rijen verwijderd
+2026-05-07 15:57:23.738 | INFO     | __main__:<module>:40 - tabel returned_item geüpdated, 690 rijen toegevoegd, 0 rijen verwijderd
+2026-05-07 15:57:23.838 | INFO     | __main__:<module>:43 - tabel training geupdated, 402 rijen toegevoegd, 0 rijen verwijderd
+2026-05-07 15:57:23.931 | INFO     | __main__:<module>:40 - tabel satisfaction geüpdated, 301 rijen toegevoegd, 0 rijen verwijderd
+2026-05-07 15:57:24.226 | INFO     | __main__:<module>:34 - tabel product_forecast geüpdated, 3872 rijen toegevoegd, 0 rijen verwijderd
+2026-05-07 15:57:24.527 | INFO     | __main__:<module>:34 - tabel inventory_levels geüpdated, 3888 rijen toegevoegd, 0 rijen verwijderd
+2026-05-07 15:57:26.093 | INFO     | __main__:<module>:57 - tabel sales_target geüpdated, 30898 rijen toegevoegd, 0 rijen verwijderd

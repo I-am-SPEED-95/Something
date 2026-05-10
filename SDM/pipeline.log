@@ -1,0 +1,110 @@
+2026-05-07 15:57:09.283 | INFO     | __main__:create_sdm_db:21 - SDM database aangemaakt op basis van RIM script
+2026-05-07 15:57:09.296 | INFO     | __main__:reset_sdm:12 - Tabel 'Customer_Type' leeggemaakt.
+2026-05-07 15:57:09.296 | INFO     | __main__:reset_sdm:12 - Tabel 'Customer_Segment' leeggemaakt.
+2026-05-07 15:57:09.296 | INFO     | __main__:reset_sdm:12 - Tabel 'Age_Group' leeggemaakt.
+2026-05-07 15:57:09.296 | INFO     | __main__:reset_sdm:12 - Tabel 'Sales_Territory' leeggemaakt.
+2026-05-07 15:57:09.296 | INFO     | __main__:reset_sdm:12 - Tabel 'Crm_Country' leeggemaakt.
+2026-05-07 15:57:09.296 | INFO     | __main__:reset_sdm:12 - Tabel 'country' leeggemaakt.
+2026-05-07 15:57:09.296 | INFO     | __main__:reset_sdm:12 - Tabel 'product_line' leeggemaakt.
+2026-05-07 15:57:09.296 | INFO     | __main__:reset_sdm:12 - Tabel 'product_type' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'product' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'order_method' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'return_reason' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'sales_office' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'sales_branch' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'Customer_Headquarters' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'Customer' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'Customer_Store' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'Customer_Contact' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'retailer_site' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'sales_staff' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'sales_representative' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'course' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'satisfaction_type' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'Sales_Demographic' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'Order_Header' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'order_details' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'returned_item' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'training' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'satisfaction' leeggemaakt.
+2026-05-07 15:57:09.297 | INFO     | __main__:reset_sdm:12 - Tabel 'Sales_Target' leeggemaakt.
+2026-05-07 15:57:09.298 | INFO     | __main__:reset_sdm:12 - Tabel 'Product_Forecast' leeggemaakt.
+2026-05-07 15:57:09.298 | INFO     | __main__:reset_sdm:12 - Tabel 'Inventory_Levels' leeggemaakt.
+2026-05-07 15:57:09.299 | INFO     | __main__:reset_sdm:16 - SDM reset succesvol afgerond.
+2026-05-07 15:57:09.364 | INFO     | __main__:<module>:20 - Connectie met SDM database geopend.
+2026-05-07 15:57:09.365 | INFO     | __main__:<module>:24 - SDM wordt ingevuld uit database: ../data/GO_SALES-data.sqlite
+2026-05-07 15:57:09.366 | INFO     | __main__:<module>:31 - SDM tabel 'order_method' wordt ingevuld vanuit operationele tabel 'order_method'.
+2026-05-07 15:57:09.367 | INFO     | __main__:<module>:35 - SDM tabel 'order_method' is nu ingevuld met 7 rijen
+2026-05-07 15:57:09.367 | INFO     | __main__:<module>:31 - SDM tabel 'return_reason' wordt ingevuld vanuit operationele tabel 'return_reason'.
+2026-05-07 15:57:09.367 | INFO     | __main__:<module>:35 - SDM tabel 'return_reason' is nu ingevuld met 5 rijen
+2026-05-07 15:57:09.367 | INFO     | __main__:<module>:31 - SDM tabel 'product_line' wordt ingevuld vanuit operationele tabel 'product_line'.
+2026-05-07 15:57:09.367 | INFO     | __main__:<module>:35 - SDM tabel 'product_line' is nu ingevuld met 5 rijen
+2026-05-07 15:57:09.367 | INFO     | __main__:<module>:31 - SDM tabel 'country' wordt ingevuld vanuit operationele tabel 'country'.
+2026-05-07 15:57:09.367 | INFO     | __main__:<module>:35 - SDM tabel 'country' is nu ingevuld met 18 rijen
+2026-05-07 15:57:09.368 | INFO     | __main__:<module>:31 - SDM tabel 'product_type' wordt ingevuld vanuit operationele tabel 'product_type'.
+2026-05-07 15:57:09.368 | INFO     | __main__:<module>:35 - SDM tabel 'product_type' is nu ingevuld met 21 rijen
+2026-05-07 15:57:09.368 | INFO     | __main__:<module>:31 - SDM tabel 'sales_branch' wordt ingevuld vanuit operationele tabel 'sales_branch'.
+2026-05-07 15:57:09.368 | INFO     | __main__:<module>:35 - SDM tabel 'sales_branch' is nu ingevuld met 25 rijen
+2026-05-07 15:57:09.369 | INFO     | __main__:<module>:31 - SDM tabel 'product' wordt ingevuld vanuit operationele tabel 'product'.
+2026-05-07 15:57:09.369 | INFO     | __main__:<module>:35 - SDM tabel 'product' is nu ingevuld met 115 rijen
+2026-05-07 15:57:09.370 | INFO     | __main__:<module>:31 - SDM tabel 'retailer_site' wordt ingevuld vanuit operationele tabel 'retailer_site'.
+2026-05-07 15:57:09.371 | INFO     | __main__:<module>:35 - SDM tabel 'retailer_site' is nu ingevuld met 391 rijen
+2026-05-07 15:57:09.372 | INFO     | __main__:<module>:31 - SDM tabel 'sales_staff' wordt ingevuld vanuit operationele tabel 'sales_staff'.
+2026-05-07 15:57:09.372 | INFO     | __main__:<module>:35 - SDM tabel 'sales_staff' is nu ingevuld met 96 rijen
+2026-05-07 15:57:09.386 | INFO     | __main__:<module>:31 - SDM tabel 'Order_Header' wordt ingevuld vanuit operationele tabel 'order_header'.
+2026-05-07 15:57:09.391 | INFO     | __main__:<module>:35 - SDM tabel 'Order_Header' is nu ingevuld met 4968 rijen
+2026-05-07 15:57:09.463 | INFO     | __main__:<module>:31 - SDM tabel 'order_details' wordt ingevuld vanuit operationele tabel 'order_details'.
+2026-05-07 15:57:09.518 | INFO     | __main__:<module>:35 - SDM tabel 'order_details' is nu ingevuld met 40990 rijen
+2026-05-07 15:57:09.523 | INFO     | __main__:<module>:31 - SDM tabel 'returned_item' wordt ingevuld vanuit operationele tabel 'returned_item'.
+2026-05-07 15:57:09.524 | INFO     | __main__:<module>:35 - SDM tabel 'returned_item' is nu ingevuld met 690 rijen
+2026-05-07 15:57:09.530 | INFO     | __main__:<module>:44 - Connectie met operationele database '../data/GO_SALES-data.sqlite' gesloten.
+2026-05-07 15:57:09.530 | INFO     | __main__:<module>:46 - Connectie met SDM database gesloten.
+2026-05-07 15:57:09.544 | INFO     | __main__:<module>:14 - Connectie met SDM database geopend.
+2026-05-07 15:57:09.545 | INFO     | __main__:<module>:18 - SDM wordt ingevuld uit database: ../data/GO_STAFF-data.sqlite
+2026-05-07 15:57:09.546 | INFO     | __main__:<module>:25 - SDM tabel 'course' wordt ingevuld vanuit operationele tabel 'course'.
+2026-05-07 15:57:09.546 | INFO     | __main__:<module>:29 - SDM tabel 'course' is nu ingevuld met 9 rijen
+2026-05-07 15:57:09.547 | INFO     | __main__:<module>:25 - SDM tabel 'sales_office' wordt ingevuld vanuit operationele tabel 'sales_office'.
+2026-05-07 15:57:09.547 | INFO     | __main__:<module>:29 - SDM tabel 'sales_office' is nu ingevuld met 28 rijen
+2026-05-07 15:57:09.547 | INFO     | __main__:<module>:25 - SDM tabel 'sales_representative' wordt ingevuld vanuit operationele tabel 'sales_representative'.
+2026-05-07 15:57:09.547 | INFO     | __main__:<module>:29 - SDM tabel 'sales_representative' is nu ingevuld met 102 rijen
+2026-05-07 15:57:09.548 | INFO     | __main__:<module>:25 - SDM tabel 'satisfaction' wordt ingevuld vanuit operationele tabel 'satisfaction'.
+2026-05-07 15:57:09.548 | INFO     | __main__:<module>:29 - SDM tabel 'satisfaction' is nu ingevuld met 301 rijen
+2026-05-07 15:57:09.548 | INFO     | __main__:<module>:25 - SDM tabel 'satisfaction_type' wordt ingevuld vanuit operationele tabel 'satisfaction_type'.
+2026-05-07 15:57:09.548 | INFO     | __main__:<module>:29 - SDM tabel 'satisfaction_type' is nu ingevuld met 5 rijen
+2026-05-07 15:57:09.549 | INFO     | __main__:<module>:25 - SDM tabel 'training' wordt ingevuld vanuit operationele tabel 'training'.
+2026-05-07 15:57:09.549 | INFO     | __main__:<module>:29 - SDM tabel 'training' is nu ingevuld met 402 rijen
+2026-05-07 15:57:09.551 | INFO     | __main__:<module>:38 - Connectie met operationele database '../data/GO_STAFF-data.sqlite' gesloten.
+2026-05-07 15:57:09.551 | INFO     | __main__:<module>:40 - Connectie met SDM database gesloten.
+2026-05-07 15:57:09.570 | INFO     | __main__:<module>:18 - Connectie met SDM database geopend.
+2026-05-07 15:57:09.571 | INFO     | __main__:<module>:22 - SDM wordt ingevuld uit database: ../data/CRM-data.sqlite
+2026-05-07 15:57:09.571 | INFO     | __main__:<module>:28 - SDM tabel 'Sales_Territory' wordt ingevuld vanuit operationele tabel 'sales_territory'.
+2026-05-07 15:57:09.572 | INFO     | __main__:<module>:32 - SDM tabel 'Sales_Territory' is nu ingevuld met 5 rijen
+2026-05-07 15:57:09.572 | INFO     | __main__:<module>:28 - SDM tabel 'Age_Group' wordt ingevuld vanuit operationele tabel 'age_group'.
+2026-05-07 15:57:09.573 | INFO     | __main__:<module>:32 - SDM tabel 'Age_Group' is nu ingevuld met 6 rijen
+2026-05-07 15:57:09.573 | INFO     | __main__:<module>:28 - SDM tabel 'Crm_Country' wordt ingevuld vanuit operationele tabel 'crm_country'.
+2026-05-07 15:57:09.573 | INFO     | __main__:<module>:32 - SDM tabel 'Crm_Country' is nu ingevuld met 19 rijen
+2026-05-07 15:57:09.576 | INFO     | __main__:<module>:28 - SDM tabel 'Sales_Demographic' wordt ingevuld vanuit operationele tabel 'sales_demographic'.
+2026-05-07 15:57:09.578 | INFO     | __main__:<module>:32 - SDM tabel 'Sales_Demographic' is nu ingevuld met 2484 rijen
+2026-05-07 15:57:09.578 | INFO     | __main__:<module>:28 - SDM tabel 'Customer_Segment' wordt ingevuld vanuit operationele tabel 'customer_segment'.
+2026-05-07 15:57:09.579 | INFO     | __main__:<module>:32 - SDM tabel 'Customer_Segment' is nu ingevuld met 12 rijen
+2026-05-07 15:57:09.579 | INFO     | __main__:<module>:28 - SDM tabel 'Customer_Type' wordt ingevuld vanuit operationele tabel 'customer_type'.
+2026-05-07 15:57:09.579 | INFO     | __main__:<module>:32 - SDM tabel 'Customer_Type' is nu ingevuld met 8 rijen
+2026-05-07 15:57:09.580 | INFO     | __main__:<module>:28 - SDM tabel 'Customer_Contact' wordt ingevuld vanuit operationele tabel 'customer_contact'.
+2026-05-07 15:57:09.580 | INFO     | __main__:<module>:32 - SDM tabel 'Customer_Contact' is nu ingevuld met 391 rijen
+2026-05-07 15:57:09.581 | INFO     | __main__:<module>:28 - SDM tabel 'Customer_Store' wordt ingevuld vanuit operationele tabel 'customer_store'.
+2026-05-07 15:57:09.581 | INFO     | __main__:<module>:32 - SDM tabel 'Customer_Store' is nu ingevuld met 361 rijen
+2026-05-07 15:57:09.582 | INFO     | __main__:<module>:28 - SDM tabel 'Customer' wordt ingevuld vanuit operationele tabel 'customer'.
+2026-05-07 15:57:09.582 | INFO     | __main__:<module>:32 - SDM tabel 'Customer' is nu ingevuld met 109 rijen
+2026-05-07 15:57:09.583 | INFO     | __main__:<module>:28 - SDM tabel 'Customer_Headquarters' wordt ingevuld vanuit operationele tabel 'customer_headquarters'.
+2026-05-07 15:57:09.584 | INFO     | __main__:<module>:32 - SDM tabel 'Customer_Headquarters' is nu ingevuld met 414 rijen
+2026-05-07 15:57:09.586 | INFO     | __main__:<module>:41 - Connectie met operationele database '../data/CRM-data.sqlite' gesloten.
+2026-05-07 15:57:09.586 | INFO     | __main__:<module>:43 - Connectie met SDM database gesloten.
+2026-05-07 15:57:09.607 | INFO     | __main__:<module>:13 - Connectie met SDM database geopend.
+2026-05-07 15:57:09.615 | INFO     | __main__:<module>:24 - SDM tabel 'Inventory_Levels' is nu ingevuld met 3888 rijen
+2026-05-07 15:57:09.615 | INFO     | __main__:<module>:28 - Connectie met SDM database gesloten.
+2026-05-07 15:57:09.638 | INFO     | __main__:<module>:13 - Connectie met SDM database geopend.
+2026-05-07 15:57:09.647 | INFO     | __main__:<module>:24 - SDM tabel 'Product_Forecast' is nu ingevuld met 3872 rijen
+2026-05-07 15:57:09.647 | INFO     | __main__:<module>:28 - Connectie met SDM database gesloten.
+2026-05-07 15:57:09.687 | INFO     | __main__:<module>:16 - Connectie met SDM database geopend.
+2026-05-07 15:57:09.751 | INFO     | __main__:<module>:27 - SDM tabel 'Sales_Target' is nu ingevuld met 39530 rijen
+2026-05-07 15:57:09.751 | INFO     | __main__:<module>:31 - Connectie met SDM database gesloten.
