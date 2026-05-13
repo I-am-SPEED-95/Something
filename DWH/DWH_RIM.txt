@@ -167,7 +167,7 @@ CONSTRAINT FK_MONTH_YEAR FOREIGN KEY (YEAR) REFERENCES year (YEAR)
 
 
 CREATE TABLE date (
-    DAY      DATE        NOT NULL,
+    DAY      INT        NOT NULL,
     MONTH    INT         NOT NULL,
     YEAR     INT         NOT NULL,
 

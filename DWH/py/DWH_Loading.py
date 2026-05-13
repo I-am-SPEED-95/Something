@@ -4,36 +4,9 @@ from time import strptime
 from datetime import datetime
 
 from Logging import logger, sqliteLogger
+import Database
 
-RIM_SCRIPT_PATH = "../DWH_RIM.txt"
-SDM_PATH = "../../SDM/GO_SDM.db"
-DWH_PATH = "data/GO_DWH.db"
-
-conn_SDM = sqlite3.connect(SDM_PATH)
-conn_DWH = sqlite3.connect(DWH_PATH)
-conn_DWH.set_trace_callback(sqliteLogger.info)
-conn_DWH.execute("PRAGMA foreign_keys = 1")
-
-def create_dwh_db():
-    conn_DWH.set_trace_callback(None)
-
-    with open(RIM_SCRIPT_PATH, "r") as f:
-        sql = f.read()
-
-    try:
-        conn_DWH.executescript(sql)
-        conn_DWH.commit()
-        logger.info("DWH database aangemaakt op basis van RIM script")
-    except Exception as e:
-        logger.error(f"fout bij aanmaken DWH database: {e}")
-        raise
-
-
-    conn_DWH.set_trace_callback(sqliteLogger.info)
-
-# Als er geen tabellen bestaan in de DB, run dan het DWH script
-if conn_DWH.execute("SELECT COUNT(*) FROM sqlite_master WHERE type='table'").fetchone()[0] == 0:
-    create_dwh_db()
+conn_DWH, conn_SDM = Database.connections()
 
 # COUNTRY - Not directly in DWH
 # Cached class
